@@ -1,4 +1,4 @@
- Проект по основам работы с базой данных "Игровая коллекция"
+ Проект "Исследование кибербезопасности"
 
 Структура базы данных
 
@@ -70,9 +70,52 @@
 
 Результат: злоумышленник получил все логины и пароли из таблицы users
 
-Утечка скрытых данных
+2.Утечка скрытых данных
 
 Цель: получить игры, которые не должны отображаться (например, удалённые или скрытые).
+
+<img width="608" height="219" alt="Снимок экрана (12)" src="https://github.com/user-attachments/assets/721bd4c3-6973-4f00-9d20-d54163dc8e6c" />
+
+Выполнится:
+<img width="1034" height="771" alt="Снимок экрана (13)" src="https://github.com/user-attachments/assets/9678c766-feb1-4ef5-a087-b2d20cec20bb" />
+
+Результат: покажутся все игры, включая Dropped и On Hold, которые обычно скрыты в интерфейсе.
+
+3. Обход логики (авторизация без пароля)
+
+Цель: войти в систему, не зная пароля.
+
+<img width="823" height="137" alt="Снимок экрана (14)" src="https://github.com/user-attachments/assets/f6be7d2e-3457-41b6-b97e-7a5d8b336e6c" />
+
+Выполнится:
+<img width="676" height="45" alt="Снимок экрана (15)" src="https://github.com/user-attachments/assets/05b98763-a27c-4df9-980d-3fd8313153dd" />
+<img width="741" height="227" alt="Снимок экрана (16)" src="https://github.com/user-attachments/assets/5183f16f-8c6e-4ea5-95e6-fec2ca9f43ab" />
+
+Результат: вход под admin без пароля.
+
+4. Разведка БД
+
+Цель: узнать структуру базы данных (названия таблиц, колонок).
+
+<img width="666" height="69" alt="Снимок экрана (17)" src="https://github.com/user-attachments/assets/2144c4dd-739a-444d-8465-a464d9d267f1" />
+
+Выполнится:
+<img width="859" height="201" alt="Снимок экрана (18)" src="https://github.com/user-attachments/assets/7e6e1d29-c131-4c8a-98bd-5e58ea58fe63" />
+<img width="1050" height="782" alt="Снимок экрана (19)" src="https://github.com/user-attachments/assets/9e9f0dfa-7eeb-4a81-8468-8a039933c103" />
+
+Злоумышленник узнал:
+
+· Есть колонки login и password
+· Пароли хранятся в открытом виде
+
+МЕТОДЫ ЗАЩИТЫ 
+
+1. Параметризованные запросы
+
+
+
+
+
 
 
 
