@@ -63,6 +63,7 @@
 1. UNION-атака
 
 Цель: получить данные из другой таблицы, которую не должны видеть.
+
 <img width="770" height="107" alt="Снимок экрана (10)" src="https://github.com/user-attachments/assets/44f015ea-69f5-4642-9596-8b65829c7708" />
 
 Выполнится:
@@ -117,12 +118,13 @@
 МЕТОДЫ ЗАЩИТЫ 
 
 1. Параметризованные запросы
+<img width="793" height="172" alt="Снимок экрана (21)" src="https://github.com/user-attachments/assets/a85c8e18-3f47-4f96-9023-e58fffcd81a5" />
    
-
 2. Экранирование
-
+<img width="663" height="158" alt="Снимок экрана (22)" src="https://github.com/user-attachments/assets/b470b69a-1d88-4405-a9d7-fabe21e03727" />
 
 3. Валидация
+<img width="745" height="486" alt="Снимок экрана (23)" src="https://github.com/user-attachments/assets/58ef0809-bb9a-41cb-8d87-10403a3ffcb0" />
 
 
 
