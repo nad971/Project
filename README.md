@@ -46,19 +46,20 @@
 
 ## Отображение в интерфейсе SQL
 
-Таблица platforms 
+### Таблица platforms 
 <img width="1044" height="851" alt="Снимок экрана (6)" src="https://github.com/user-attachments/assets/6fbef4bc-c799-436c-a8f9-6167c67ac2e6" />
 
-Таблица progress 
+### Таблица progress 
 <img width="1056" height="858" alt="Снимок экрана (7)" src="https://github.com/user-attachments/assets/7a4b8a19-a2f5-42a3-9423-8c4aa7df8c08" />
 
-Таблица games 
+### Таблица games 
 <img width="1048" height="857" alt="Снимок экрана (8)" src="https://github.com/user-attachments/assets/773c0a3b-3e22-4c90-9ad0-295bd21ed42d" />
 
-Таблица users
+### Таблица users
 <img width="1061" height="856" alt="Снимок экрана (9)" src="https://github.com/user-attachments/assets/4cb42c72-7026-4327-9f2d-fddd1e9780d5" />
 
 # ВИДЫ SQL-ИНЪЕКЦИЙ 
+
 
 ## 1. UNION-АТАКА
 
@@ -72,6 +73,7 @@
 
 Результат: злоумышленник получил все логины и пароли из таблицы users
 
+
 ## 2.УТЕЧКА СКРЫТЫХ ДАННЫХ
 
 Цель: получить игры, которые не должны отображаться (например, удалённые или скрытые).
@@ -83,6 +85,7 @@
 <img width="1034" height="771" alt="Снимок экрана (13)" src="https://github.com/user-attachments/assets/9678c766-feb1-4ef5-a087-b2d20cec20bb" />
 
 Результат: покажутся все игры, включая Dropped и On Hold, которые обычно скрыты в интерфейсе.
+
 
 ## 3. ОБХОД ЛОГИКИ (авторизация без пароля)
 
@@ -97,6 +100,7 @@
 <img width="741" height="227" alt="Снимок экрана (16)" src="https://github.com/user-attachments/assets/5183f16f-8c6e-4ea5-95e6-fec2ca9f43ab" />
 
 Результат: вход под admin без пароля.
+
 
 ## 4. РАЗВЕДКА БД
 
